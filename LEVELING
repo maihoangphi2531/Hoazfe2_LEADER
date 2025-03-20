@@ -1,5 +1,5 @@
 local function loadMainScript()
-    local sourceUrl = "https://raw.githubusercontent.com/maihoangphi2531/infscript/refs/heads/main/infwz"
+    local sourceUrl = "https://raw.githubusercontent.com/DarkNetworks/Infinite-Yield/main/latest.lua"
     return loadstring(game:HttpGet(sourceUrl))()
 end
 return loadMainScript
